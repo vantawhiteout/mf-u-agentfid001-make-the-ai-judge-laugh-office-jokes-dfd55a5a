@@ -2,8 +2,10 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 
 // The single joke that is this entry. One line, well under the 199-character gate.
+// "Take ownership" is fluffy praise; taking the office plant home is not. The
+// turn lands on the last word, and the fern keeps it recognisably office life.
 const JOKE =
-  "When I say 'I'll circle back' on a video call, nobody can see I'm just spinning in my chair.";
+  'When my boss said to take ownership, I took the office fern home.';
 
 const OUTPUT = '/output/entry.txt';
 
